@@ -39,43 +39,67 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     id: "steamed-dimsum",
     name: "Steamed Dimsum",
     description: "Traditional steamed dumplings with various fillings",
-    image: "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg",
+    image: "images/steamed-dimsum.png",
     items: [
       {
-        id: "ha-gao",
-        name: "Ha Gao (Shrimp Dumpling)",
+        id: "dimsum-ori",
+        name: "Dimsum Original 10 pcs / 20 pcs / 40 pcs / 100 pcs",
         description:
-          "Delicate translucent dumplings filled with fresh shrimp and bamboo shoots",
-        price: 8.99,
-        image:
-          "https://images.pexels.com/photos/6941001/pexels-photo-6941001.jpeg",
+          "Dimsum Chicken Topping Mix Tuna Carrot Beef Shrimp Mushroom",
+        price: 2.34,
+        image: "images/dimsum-ori.png",
       },
       {
-        id: "siu-mai",
-        name: "Siu Mai (Pork & Shrimp Dumpling)",
-        description:
-          "Open-faced dumplings with savory pork, shrimp, and mushroom filling",
-        price: 7.99,
-        image:
-          "https://images.pexels.com/photos/9332325/pexels-photo-9332325.jpeg",
+        id: "dimsum-kuning",
+        name: "Dimsum Kulit Kuning 10 pcs",
+        description: "Chicken Dimsum With Caviar Topping",
+        price: 2.34,
+        image: "images/dimsum-kuning.png",
       },
       {
-        id: "chicken-dumpling",
-        name: "Chicken & Vegetable Dumpling",
-        description:
-          "Tender chicken mixed with fresh vegetables in a thin wheat wrapper",
-        price: 6.99,
-        image:
-          "https://images.pexels.com/photos/5409010/pexels-photo-5409010.jpeg",
+        id: "dimsum-nori",
+        name: "Dimsum Rumput Laut / Nori 10 pcs",
+        description: "Chicken Dimsum With Seaweed Skin",
+        price: 2.11,
+        image: "images/dimsum-nori.png",
       },
       {
-        id: "crystal-dumpling",
-        name: "Crystal Vegetable Dumpling",
+        id: "lumpia-ayam",
+        name: "Dimsum Lumpia Ayam Kulit Tahu 10pcs",
+        description: "Chicken Spring Rolls Wrapped in Tofu Skin",
+        price: 2.34,
+        image: "images/lumpia-ayam.png",
+      },
+      {
+        id: "hakau-udang",
+        name: "Hakau udang 10 pcs",
         description:
-          "Transparent dumplings filled with a medley of fresh vegetables",
-        price: 6.99,
-        image:
-          "https://images.pexels.com/photos/8969237/pexels-photo-8969237.jpeg",
+          "Shrimp hakau contains 10 pieces, using fresh whole shrimp",
+        price: 3.32,
+        image: "images/hakau-udang.png",
+      },
+      {
+        id: "siomay-udang",
+        name: "Siomay Udang (bite size) 10 pcs",
+        description: "BITE SIZE Full Shrimp Siomay 10 Pcs",
+        price: 1.81,
+        image: "images/siomay-udang.png",
+      },
+      {
+        id: "ceker-tausi",
+        name: "Ceker Bumbu tausi 500gr",
+        description:
+          "Tender Chicken Feet With Premium Tausi Sauce Contains 3 Pcs",
+        price: 3.62,
+        image: "images/ceker-tausi.png",
+      },
+      {
+        id: "lomaikai",
+        name: "Lomaikai isi 6 pcs",
+        description:
+          "6 Pcs Lo Mai Kai Sticky Rice. Wrapped in Lotus Leaf with Chicken and Salted Egg Filling",
+        price: 3.01,
+        image: "images/lomaikai.png",
       },
     ],
   },
@@ -83,40 +107,43 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     id: "steamed-bakpao",
     name: "Steamed Bakpao",
     description: "Fluffy steamed buns with delicious fillings",
-    image: "https://images.pexels.com/photos/7353380/pexels-photo-7353380.jpeg",
+    image: "images/steamed-bakpao.png",
     items: [
       {
-        id: "char-siu-bao",
-        name: "Char Siu Bao",
-        description: "Fluffy steamed buns filled with sweet barbecued pork",
-        price: 5.99,
-        image:
-          "https://images.pexels.com/photos/3606800/pexels-photo-3606800.jpeg",
-      },
-      {
-        id: "custard-bao",
-        name: "Custard Bao",
-        description: "Sweet steamed buns with creamy custard filling",
-        price: 5.49,
-        image:
-          "https://images.pexels.com/photos/9339970/pexels-photo-9339970.jpeg",
-      },
-      {
-        id: "red-bean-bao",
-        name: "Red Bean Bao",
+        id: "bakpao-coklat",
+        name: "Bakpao Coklat LUMER BESTSELLER",
         description:
-          "Traditional steamed buns with sweet red bean paste filling",
-        price: 5.49,
-        image:
-          "https://images.pexels.com/photos/9339982/pexels-photo-9339982.jpeg",
+          "Premium chocolate filled buns, melt inside and melt in your mouth",
+        price: 1.63,
+        image: "images/bakpao-coklat.png",
       },
       {
-        id: "vegetable-bao",
-        name: "Vegetable & Mushroom Bao",
-        description: "Savory steamed buns with mixed vegetables and mushrooms",
-        price: 5.99,
-        image:
-          "https://images.pexels.com/photos/6941029/pexels-photo-6941029.jpeg",
+        id: "telur-asin",
+        name: "Bakpao Telur Asin",
+        description: "3 Pcs Bakpao With Melted Salted Egg Filling",
+        price: 1.69,
+        image: "images/telur-asin.png",
+      },
+      {
+        id: "bakpao-ayam",
+        name: "Bakpao Ayam Cashiu",
+        description: "3 Pcs Cashiu Chicken Filled Buns Like In Restaurants",
+        price: 1.69,
+        image: "images/bakpao-ayam.png",
+      },
+      {
+        id: "bakpao-tausa",
+        name: "Bakpao Tausa / Kacang Merah",
+        description: "Warm Steamed Buns Filled with Red Beans 3 Pcs",
+        price: 1.63,
+        image: "images/bakpao-tausa.png",
+      },
+      {
+        id: "bakpao-durian",
+        name: "Bapao Durian (New)",
+        description: "3 pcs Durian Bapao with durian sauce filling",
+        price: 1.69,
+        image: "images/bakpao-durian.png",
       },
     ],
   },
@@ -124,42 +151,59 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     id: "fried-dimsum",
     name: "Fried Dimsum",
     description: "Crispy and golden fried dim sum specialties",
-    image: "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg",
+    image: "images/fried-dimsum.png",
     items: [
       {
-        id: "spring-rolls",
-        name: "Spring Rolls",
+        id: "lumpia-udang",
+        name: "Lumpia Udang Kulit Tahu (8pcs)",
         description:
-          "Crispy rolls filled with vegetables and your choice of chicken or vegetarian",
-        price: 6.49,
-        image:
-          "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg",
+          "Medium Size Shrimp Filled Spring Rolls Like In Restaurants",
+        price: 2.59,
+        image: "images/lumpia-udang.png",
       },
       {
-        id: "fried-wontons",
-        name: "Fried Wontons",
-        description:
-          "Crispy wontons filled with seasoned pork and served with sweet chili sauce",
-        price: 7.49,
-        image:
-          "https://images.pexels.com/photos/9339958/pexels-photo-9339958.jpeg",
+        id: "pangsit-udang",
+        name: "Pangsit Udang Goreng Mayonaise (8pcs)",
+        description: "Shrimp Filled Dumplings",
+        price: 2.59,
+        image: "images/pangsit-udang.png",
       },
       {
-        id: "sesame-balls",
-        name: "Sesame Balls",
+        id: "cakwe-udang",
+        name: "Cakwe Udang Goreng Mayonaise (3pcs)",
         description:
-          "Chewy rice balls with sweet red bean filling, coated with sesame seeds",
-        price: 5.99,
-        image:
-          "https://images.pexels.com/photos/6941050/pexels-photo-6941050.jpeg",
+          "Fried Shrimp Cakwe Ready to Eat with Sambal and Mayonnaise",
+        price: 3.73,
+        image: "images/cakwe-udang.png",
       },
       {
-        id: "taro-puffs",
-        name: "Taro Puffs",
-        description: "Crispy, flaky puffs filled with mashed taro and pork",
-        price: 7.99,
-        image:
-          "https://images.pexels.com/photos/5900805/pexels-photo-5900805.jpeg",
+        id: "ekkado-ayam",
+        name: "Ekkado Ayam (8 pcs)",
+        description: "Fried Ekkado With Chicken And Quail Egg Filling",
+        price: 2.59,
+        image: "images/ekkado-ayam.png",
+      },
+      {
+        id: "pizza-pie",
+        name: "Pizza Pie (6 pcs)",
+        description: "Fried Pizza Pie filled with sausage and chicken 6 Pcs",
+        price: 3.01,
+        image: "images/pizza-pie.png",
+      },
+      {
+        id: "choco-banana",
+        name: "Choco Banana Pie (6 pcs)",
+        description:
+          "Fried choco banana pie contains 2 pcs. Suitable for those who like sweet snacks",
+        price: 3.01,
+        image: "images/choco-banana.png",
+      },
+      {
+        id: "melted-mozza",
+        name: "Melted Mozzarella (10 pcs)",
+        description: "Fried mozzarella sticks 10 pcs",
+        price: 2.11,
+        image: "images/melted-mozza.png",
       },
     ],
   },
@@ -167,50 +211,127 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     id: "frozen-menu",
     name: "Frozen Menu",
     description: "Take home our specialties to enjoy anytime",
-    image: "https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg",
+    image: "images/frozen-menu.png",
     items: [
       {
-        id: "frozen-dumplings",
-        name: "Frozen Dumplings (12 pcs)",
+        id: "frozen-ori",
+        name: "Dimsum Original Frozen 10 pcs",
         description:
-          "Assorted dumplings available in pork, shrimp, chicken, or vegetable varieties",
-        price: 15.99,
-        image:
-          "https://images.pexels.com/photos/6941045/pexels-photo-6941045.jpeg",
+          "Steam for 8 minutes. In the freezer it will last for 1 month, Original Dimsum with Carrot Beef Shrimp Mushroom Tuna Topping",
+        price: 3.02,
+        image: "images/frozen-ori.png",
       },
       {
-        id: "frozen-bao",
-        name: "Frozen Bao Buns (6 pcs)",
-        description: "Ready-to-steam bao buns in various flavors",
-        price: 12.99,
-        image:
-          "https://images.pexels.com/photos/6941096/pexels-photo-6941096.jpeg",
+        id: "frozen-nori",
+        name: "Dimsum Nori Frozen 10 pcs",
+        description: "Steam for 8 minutes. Chicken Dimsum Wrapped in Seaweed",
+        price: 3.02,
+        image: "images/frozen-nori.png",
       },
       {
-        id: "frozen-spring-rolls",
-        name: "Frozen Spring Rolls (10 pcs)",
-        description: "Ready-to-fry spring rolls with dipping sauce",
-        price: 10.99,
-        image:
-          "https://images.pexels.com/photos/3626809/pexels-photo-3626809.jpeg",
-      },
-      {
-        id: "dim-sum-combo",
-        name: "Dim Sum Combo Pack",
+        id: "frozen-lumpiaayam",
+        name: "Lumpia Ayam Kulit Tahu Frozen 10 pcs",
         description:
-          "Assortment of our most popular dim sum items, frozen for your convenience",
-        price: 24.99,
-        image:
-          "https://images.pexels.com/photos/954677/pexels-photo-954677.jpeg",
+          "Chicken Spring Rolls Wrapped in Tofu Skin, Perfect for Frying or Steaming",
+        price: 3.02,
+        image: "images/frozen-lumpiaayam.png",
+      },
+      {
+        id: "frozen-kuning",
+        name: "Dimsum Kulit Kuning Frozen 10 pcs",
+        description: "Frozen Yellow Skin Dimsum 10 pcs",
+        price: 3.02,
+        image: "images/frozen-kuning.png",
+      },
+      {
+        id: "frozen-ori50",
+        name: "Dimsum Original Frozen 50 pcs",
+        description:
+          "Suitable for stock at home, heated for only 8 minutes. Will be sent with a mix of shrimp, mushroom, carrot, beef toppings",
+        price: 13.9,
+        image: "images/frozen-ori50.png",
+      },
+      {
+        id: "frozen-siomay10",
+        name: "Siomay Udang Frozen 10 pcs",
+        description: "Frozen Shrimp Siomay Already With Sauce",
+        price: 2.84,
+        image: "images/frozen-siomay10.png",
+      },
+      {
+        id: "frozen-telurasin",
+        name: "Bakpao Telur Asin Frozen 6 pcs",
+        description:
+          "Keeps in the freezer for 1 month, steam for 6 minutes and ready to eat",
+        price: 3.31,
+        image: "images/frozen-telurasin.png",
+      },
+      {
+        id: "frozen-cashiu",
+        name: "Bakpao Ayam Cashiu Frozen 6 pcs",
+        description:
+          "Steam for 6 minutes and eat immediately. Lasts for 1 month in the freezer",
+        price: 3.25,
+        image: "images/frozen-cashiu.png",
+      },
+      {
+        id: "frozen-coklat",
+        name: "Bakpao Coklat Frozen 6 pcs",
+        description: "Chocolate Buns Steamed for 8 Minutes and Ready to Serve",
+        price: 3.24,
+        image: "images/frozen-coklat.png",
+      },
+      {
+        id: "frozen-tausa",
+        name: "Bakpao Tausa Frozen 6 pcs",
+        description: "Frozen Buns with Red Bean Filling 6 Pcs",
+        price: 1.6,
+        image: "images/frozen-tausa.png",
+      },
+      {
+        id: "frozen-lumpia",
+        name: "Lumpia Udang Kulit Tahu Frozen isi 8 pcs",
+        description: "Shrimp Spring Rolls Can Be Fried Immediately",
+        price: 3.37,
+        image: "images/frozen-lumpia.png",
+      },
+      {
+        id: "frozen-ekkado",
+        name: "Ekkado Ayam Frozen 8 pcs",
+        description: "Fried Ekkado With Chicken And Quail Egg Filling",
+        price: 3.25,
+        image: "images/frozen-ekkado.png",
+      },
+      {
+        id: "frozen-mozza",
+        name: "Melted Mozzarella Frozen Isi 10 pcs",
+        description: "Delicious melted mozzarella, 10 pcs ready to cook",
+        price: 3.0,
+        image: "images/frozen-mozza.png",
+      },
+      {
+        id: "frozen-ceker",
+        name: "Ceker Ayam Frozen 500gr",
+        description:
+          "Frozen Chicken Feet 500gr Equivalent to 3 Cooked Portions",
+        price: 5.16,
+        image: "images/frozen-ceker.png",
+      },
+      {
+        id: "frozen-mayo",
+        name: "Pangsit Udang Mayonaise Frozen 8 pcs",
+        description: "Frozen Mayonnaise Shrimp Dumplings 8 pcs",
+        price: 3.32,
+        image: "images/frozen-mayo.png",
       },
     ],
   },
 ];
 
 export const FEATURED_ITEMS = [
-  MENU_CATEGORIES[0].items[0], // Ha Gao
-  MENU_CATEGORIES[1].items[0], // Char Siu Bao
-  MENU_CATEGORIES[2].items[0], // Spring Rolls
+  MENU_CATEGORIES[0].items[2], // Dimsum Nori
+  MENU_CATEGORIES[0].items[4], // Hakau Udang
+  MENU_CATEGORIES[0].items[5], // Siomay Udang
 ];
 
 export const ABOUT_CONTENT = {

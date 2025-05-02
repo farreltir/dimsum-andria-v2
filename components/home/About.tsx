@@ -47,8 +47,8 @@ export default function AboutSection() {
             <div className="space-y-4">
               <div className="rounded-xl overflow-hidden shadow-lg h-48 sm:h-64">
                 <Image
-                  src="https://images.pexels.com/photos/7499380/pexels-photo-7499380.jpeg"
-                  alt="Chef preparing dim sum"
+                  src="images/hero1.png"
+                  alt="Hero1"
                   width={400}
                   height={300}
                   className="object-cover w-full h-full"
@@ -57,8 +57,8 @@ export default function AboutSection() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg h-64 sm:h-80">
                 <Image
-                  src="https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg"
-                  alt="Restaurant interior"
+                  src="images/hero2.png"
+                  alt="Hero2"
                   width={400}
                   height={500}
                   className="object-cover w-full h-full"
@@ -69,8 +69,8 @@ export default function AboutSection() {
             <div className="space-y-4 mt-8">
               <div className="rounded-xl overflow-hidden shadow-lg h-64 sm:h-80">
                 <Image
-                  src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg"
-                  alt="Dim sum variety"
+                  src="images/hero3.png"
+                  alt="Hero3"
                   width={400}
                   height={500}
                   className="object-cover w-full h-full"
@@ -79,8 +79,8 @@ export default function AboutSection() {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg h-48 sm:h-64">
                 <Image
-                  src="https://images.pexels.com/photos/8951699/pexels-photo-8951699.jpeg"
-                  alt="Dim sum preparation"
+                  src="images/hero4.png"
+                  alt="Hero4"
                   width={400}
                   height={300}
                   className="object-cover w-full h-full"

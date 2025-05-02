@@ -6,9 +6,9 @@ import { RESTAURANT_NAME, RESTAURANT_DESCRIPTION } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 const HERO_IMAGES = [
-  "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg",
-  "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg",
-  "https://images.pexels.com/photos/6941001/pexels-photo-6941001.jpeg",
+  "images/carousel1.png",
+  "images/carousel2.png",
+  "images/carousel3.png",
 ];
 
 export default function Hero() {
